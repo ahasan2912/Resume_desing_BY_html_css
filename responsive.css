@@ -1,0 +1,435 @@
+/*Small Mobile Screen Devices*/
+@media (min-width: 320px) and (max-width: 500px) {
+    .btn{
+        display: block;
+    }
+    .logo{
+        font-size: 20px;
+        padding: 0 40px;
+    }
+    ul{
+        position: fixed;
+        top: 135px;
+        left: -100%;
+        background: rgb(66, 61, 61);
+        width: 80%;
+        height: 100vh;
+        transition: all .5s;
+        text-align: center;
+    }
+    ul li{
+        display: block;
+        line-height: 25px;
+        margin: 30px 60px;
+    }
+    #check:checked ~ ul{
+        left: -20%;
+    }
+    .cover_photo h1{
+        font-size: 35px;
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 70px;
+        text-align: center;
+        padding: 30px 100px;
+    }
+    .divition{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .picture img{
+        margin-top: 40px;
+    }
+    footer{
+        padding: 0px 40px;
+        line-height: 30px;
+        margin-top: 60px;
+    }
+    /*About pages*/
+    .another{
+        height: 35vh;
+    }
+    .another h1{
+        margin-left: 0px;
+        color: black;
+        font-size: 50px;
+        padding: 50px 0px 0px 0px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin: 35px 0px;
+    }
+    .ahasan_pic img{
+        width: 300px;
+        height: 350px;
+        margin-left: 10px;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 28px;
+        padding: 20px 20px 0px 0px;
+    }
+    /*Education page*/
+    .edu h1{
+        color: black;
+        font-size: 40px;
+        text-align: center;
+        padding: 30px;
+    }
+    .institution{
+        margin: 80px 10px 0px 30px;
+        text-align: center;
+    } 
+    .ssc{
+        display: flex;
+        flex-direction: column;
+    }
+    .ssc img{
+        width: 260px;
+        height: 260px;
+    }
+    .name_text{
+        margin: 0px 0px;
+    }
+    .name_text h1{
+        color: #3c78d8;
+        font-size: 45px;
+    }
+    .name_text p{
+        font-size: 21px;
+        margin-top: 15px;
+        padding: 0px 0px 0px 0px;
+        line-height: 25px;
+    }
+    .extra{
+        margin-top: 60px;
+    }
+    /*Interest pages*/
+    .interested h1{
+        color: black;
+        font-size: 50px;
+        text-align: center;
+        padding: 70px 40px;
+    }
+    .part{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0px 0px 0px;
+    }
+    .part_pic img{
+        width: 290px;
+        height: 250px;
+        border-radius: 7px;
+    }
+    .part_pic h1{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+/*Large Mobile Screen Devices*/
+@media (min-width: 501px) and (max-width: 767px){
+    .btn{
+        display: block;
+    }
+    .logo{
+        font-size: 20px;
+        padding: 0 40px;
+    }
+    ul{
+        position: fixed;
+        top: 135px;
+        left: -100%;
+        background: rgb(66, 61, 61);
+        width: 80%;
+        height: 100vh;
+        transition: all .5s;
+        text-align: center;
+    }
+    ul li{
+        display: block;
+        line-height: 55px;
+        margin: 35px 60px;
+    }
+    #check:checked ~ ul{
+        left: -20%;
+    }
+    .cover_photo h1{
+        font-size: 65px;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 90px;
+        text-align: center;
+        padding: 70px 100px;
+    }
+    .divition{
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .picture img{
+        margin-top: 40px;
+    }
+    footer{
+        padding: 0px 40px;
+        line-height: 30px;
+        margin-top: 60px;
+    }
+    /*About Pages*/
+    .another{
+        height: 35vh;
+    }
+    .another h1{
+        margin-left: 0px;
+        color: black;
+        font-size: 80px;
+        padding: 80px 0px 0px 0px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin: 35px 0px;
+    }
+    .ahasan_pic img{
+        width: 400px;
+        height: 450px;
+        margin-left: 50px;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 28px;
+        padding: 20px 20px 0px 0px;
+    }
+       /*Education page*/
+    .edu h1{
+        color: black;
+        font-size: 65px;
+        text-align: center;
+        padding: 30px;
+    }
+    .institution{
+        margin: 80px 10px 0px 30px;
+        text-align: center;
+    } 
+    .ssc{
+        display: flex;
+        flex-direction: column;
+    }
+    .ssc img{
+        width: 260px;
+        height: 260px;
+        margin-left: 100px;
+    }
+    .name_text{
+        margin: 0px 0px;
+    }
+    .name_text h1{
+        color: #3c78d8;
+        font-size: 45px;
+    }
+    .name_text p{
+        font-size: 21px;
+        margin-top: 15px;
+        padding: 0px 0px 0px 0px;
+        line-height: 25px;
+    }
+    .extra{
+        margin-top: 60px;
+    }
+    /*Interest pages*/
+    .interested h1{
+        color: black;
+        font-size: 75px;
+        text-align: center;
+        padding: 120px 40px;
+    }
+    .part{
+        display: flex;
+        flex-direction: column;
+        margin: 40px 0px 0px 0px;
+    }
+    .part_pic img{
+        width: 350px;
+        height: 320px;
+        border-radius: 7px;
+    }
+    .part_pic h1{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+}
+/*Tablet Screen Devices*/
+@media (min-width: 768px) and (max-width: 1200px) {
+    .logo{
+        font-size: 18px;
+        padding: 0 20px;
+        line-height: 80px;
+    }
+    ul{
+        margin-right: 20px;
+    }
+    ul li{
+        margin: 0px 1px;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+    .cover_photo h1{
+        font-size: 90px;
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 30px 150px 0px 240px;
+        line-height: 150px;
+    }
+    
+    .divition{
+        margin-left: 0px;
+    }
+    .picture img{
+        width: 160px;
+        height: 160px;
+        margin: 0px 15px;
+    }
+    /*About pages*/
+    .another{
+        height: 35vh;
+    }
+    .another h1{
+        margin-left: 0px;
+        color: black;
+        font-size: 100px;
+        padding: 120px 0px 0px 0px;
+    }
+    .about{
+        display: flex;
+        margin: 35px 20px;
+    }
+    .ahasan_pic img{
+        width: 300px;
+        height: 720px;
+        border-radius: 5px;
+    }
+    .text{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 25px;
+        margin-left: 20px;
+    }
+    /*Education pages*/
+    .edu h1{
+        padding: 90px 0px 0px 0px;
+        color: black;
+    }
+    .institution{
+        margin: 60px 15px;
+    }
+    .name_text{
+        margin: 45px 0px;
+    }
+    .name_text p{
+        font-size: 20px;
+        margin-top: 15px;
+        padding: 0px 0px 0px 0px;
+        line-height: 35px;
+    }
+    /*Interested pages*/
+    .interested h1{
+        color: black;
+        font-size: 75px;
+        text-align: center;
+        padding: 120px 0px;
+    }
+    .part{
+        display: flex;
+        margin: 50px 0px;
+    }
+    .part_pic{
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .part_pic img{
+        width: 235px;
+        height: 250px;
+        border-radius: 7px;
+    }
+}
+/*Mid Laptop Screen Devices*/
+@media (min-width: 1201px) and (max-width: 1400px){
+    .cover_photo h1{
+        font-size: 100px;
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 150px;
+        padding: 250px  50px 0px 40px;
+        text-align: center;
+    }
+    .divition{
+        margin-left: 40px;
+    }
+    .text{
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+    /*About pages*/
+    .another{
+        height: 35vh;
+    }
+    .another h1{
+        color: black;
+        text-align: center;
+        padding:150px 120px 0px 0px;
+    }
+    .about{
+        display: flex;
+        margin: 50px 100px 0px 150px;
+    }
+    .text{
+        font-size: 17px;
+        line-height: 27px;
+    }
+    .ahasan_pic img{
+        width: 400px;
+        height: 690px;
+    }
+    /*Education pages*/
+    .edu{
+        height: 35vh;
+    }
+    .edu h1{
+        color: black;
+        padding: 80px 20px;
+    }
+    .institution{
+        margin: 60px 30px;
+    }
+    /*Interested pages*/
+    .interested{
+        height: 35vh;
+    }
+    .interested h1{
+        color: black;
+        font-size: 75px;
+        text-align: center;
+        padding: 180px 0px;
+    }
+    .part{
+        display: flex;
+        margin: 50px 120px;
+    }
+    .part_pic{
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .part_pic img{
+        width: 300px;
+        height: 320px;
+        border-radius: 7px;
+    }
+}

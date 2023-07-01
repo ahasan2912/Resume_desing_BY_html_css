@@ -1,0 +1,24 @@
+.cover_photo{
+    background-image: url(Images/Academic.PNG);
+    height: 45vh;
+}
+.cover_photo h1{
+    color: black;
+}
+.part{
+    display: flex;
+    margin: 50px 500px;
+}
+.part_pic img{
+    width: 300px;
+    height: 250px;
+    border-radius: 7px;
+}
+.part_pic{
+    margin: 0px 15px;
+    text-align: center;
+}
+.part_pic h1{
+    font-size: 30px;
+    margin-top: 15px;
+}

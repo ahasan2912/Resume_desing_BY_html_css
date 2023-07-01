@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 85px;
+    background: black;
+}
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 83px;
+    padding: 0 100px;
+}
+.logo h1 span{
+    color: red;
+}
+ul{
+    float: right;
+    margin-top: -52px;
+    margin-right: 40px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+ul li{
+    display: inline-block;
+    margin: 0px 5px;
+
+}
+.home{
+    color: #fff;
+    font-weight: bold;
+}
+ul li a{
+    color: #fff;
+    font-size: 17px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+ul li a:hover{
+    color: red;
+}
+.btn{
+    float: right;
+    line-height: 87px;
+    font-size: 27px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 30px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.cover_photo{
+    background-image: url(Images/coverphoto.PNG);
+    width: 100%;
+    height: 70vh;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+.cover_photo h1{
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 180px;
+    padding:120px 350px;
+    text-align: center;
+}
+.divition{
+    display: flex;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 390px;
+}
+.picture img{
+    width: 250px;
+    height: 250px;
+    margin: 0px 15px;
+}
+.picture a{
+    font-family: 'Comic Sans MS', Arial;
+    color: rgba(0,101,128,1);
+}
+footer{
+    color: #434343;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}

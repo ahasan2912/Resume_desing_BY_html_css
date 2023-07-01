@@ -1,0 +1,33 @@
+.cover_photo{
+    background-image: url(Images/Academic.PNG);
+    height: 45vh;
+}
+.cover_photo h1{
+    color: black;
+}
+.institution{
+    margin: 60px 300px;
+}
+.ssc{
+    display: flex;
+}
+.ssc img{
+    width: 320px;
+    height: 320px;
+}
+.name_text{
+    margin: 45px 30px;
+}
+.name_text h1{
+    color: #3c78d8;
+    font-size: 45px;
+}
+.name_text p{
+    font-size: 21px;
+    margin-top: 15px;
+    padding: 0px 350px 0px 0px;
+    line-height: 35px;
+}
+.extra{
+    margin-top: 60px;
+}
