@@ -1,0 +1,41 @@
+.cover_photo{
+    background-image: url(../Images/Academic.PNG);
+    height: 45vh;
+}
+.cover_photo h1{
+    color: black;
+}
+.contact-info{
+    padding: 50px 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-headline h1{
+    color: #3367d6;
+    font-family: 'Comic Sans MS', Arial;
+    font-size: 60px;
+}
+.contact-platform li{
+    font-size: 19px;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+}
+.contact-online{
+    display: flex;
+}
+.contact-online li{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.fa-facebook{
+    color: #3367d6;
+    margin-right: 25px;
+}
+.fa-linkedin{
+    color: #3367d6;
+    margin-right: 25px;
+}
+.fa-github{
+    color: #000;
+}

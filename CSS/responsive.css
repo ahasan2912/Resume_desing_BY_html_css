@@ -1,0 +1,109 @@
+/* Small Mobile Screen Devices */
+@media (min-width: 320px) and (max-width: 576px) {
+    .btn{
+        display: block;
+    }
+    nav .logo{
+        font-size: 22px;
+        padding: 0 40px;
+    }
+    nav ul{
+        position: fixed;
+        top: 135px;
+        left: -100%;
+        background: rgb(66, 61, 61);
+        width: 80%;
+        height: 100vh;
+        transition: all .5s;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul li{
+        display: block;
+        line-height: 25px;
+        margin: 20px 60px;
+    }
+    #check:checked ~ ul{
+        left: -20%;
+    }
+    .heading-line{
+        font-size: 85px;
+    }
+    .divition{
+        grid-template-columns: repeat(1, 250px);
+    }
+}
+
+/*Large Mobile Screen Devices*/
+@media (min-width: 577px) and (max-width: 768px){
+    .btn{
+        display: block;
+    }
+    .logo{
+        font-size: 20px;
+        padding: 0 40px;
+    }
+    ul{
+        position: fixed;
+        top: 135px;
+        left: -100%;
+        background: rgb(66, 61, 61);
+        width: 80%;
+        height: 100vh;
+        transition: all .5s;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    ul li{
+        display: block;
+        line-height: 55px;
+        margin: 20px 60px;
+    }
+    #check:checked ~ ul{
+        left: -20%;
+    }
+    .heading-line{
+        font-size: 90px;
+    }
+    .divition{
+        grid-template-columns: repeat(1, 250px);
+    }
+}
+/*Tablet Screen Devices*/
+@media (min-width: 769px) and (max-width: 991px) {
+    nav .logo{
+        font-size: 22px;
+        padding: 0 20px;
+        line-height: 80px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav ul li{
+        margin: 0px 1px;
+    }
+    nav ul li a{
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+    .divition{
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+/*Mid Laptop Screen Devices*/
+@media (min-width: 992px) and (max-width: 1200px){
+    .logo{
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 80px;
+    }
+    .divition{
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+/*Deskto Devices*/
+@media (min-width: 1201px) and (max-width: 1400px){
+    
+}

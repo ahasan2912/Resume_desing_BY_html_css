@@ -1,5 +1,5 @@
 .cover_photo{
-    background-image: url(Images/Academic.PNG);
+    background-image: url(../Images/Academic.PNG);
     height: 45vh;
 }
 .cover_photo h1{
@@ -13,6 +13,11 @@
     width: 300px;
     height: 250px;
     border-radius: 7px;
+}
+.part_pic img:hover{
+    transform: scale(1.1);
+    background: #e6f7f5;
+    transition: 0.3s;
 }
 .part_pic{
     margin: 0px 15px;
