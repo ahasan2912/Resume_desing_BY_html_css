@@ -86,6 +86,7 @@ nav ul li a:hover{
 .picture img{
     width: 250px;
     height: 250px;
+    border-radius: 3px;
 }
 .picture a{
     font-family: 'Comic Sans MS', Arial;

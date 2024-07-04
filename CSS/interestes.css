@@ -1,29 +1,30 @@
 .cover_photo{
     background-image: url(../Images/Academic.PNG);
-    height: 45vh;
 }
 .cover_photo h1{
     color: black;
 }
 .part{
-    display: flex;
-    margin: 50px 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .part_pic img{
-    width: 300px;
+    width: 250px;
     height: 250px;
-    border-radius: 7px;
+    border-radius: 3px;
 }
 .part_pic img:hover{
     transform: scale(1.1);
     background: #e6f7f5;
     transition: 0.3s;
 }
-.part_pic{
-    margin: 0px 15px;
-    text-align: center;
-}
 .part_pic h1{
-    font-size: 30px;
     margin-top: 15px;
+    color: rgba(0,101,128,1);
+    font-family: 'Comic Sans MS', Arial;
 }
