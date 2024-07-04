@@ -1,6 +1,6 @@
 /* Small Mobile Screen Devices */
 @media (min-width: 320px) and (max-width: 576px) {
-    .btn{
+    nav .btn{
         display: block;
     }
     nav .logo{
@@ -84,7 +84,7 @@
 
 /*Large Mobile Screen Devices*/
 @media (min-width: 577px) and (max-width: 768px){
-    .btn{
+    nav .btn{
         display: block;
     }
     nav .logo{
@@ -206,7 +206,7 @@
 }
 /*Mid Laptop Screen Devices*/
 @media (min-width: 992px) and (max-width: 1200px){
-    .logo{
+    nav .logo{
         font-size: 25px;
         padding: 0 20px;
         line-height: 80px;
@@ -230,8 +230,4 @@
     .part{
         grid-template-columns: repeat(2, 250px);
     }
-}
-/*Deskto Devices*/
-@media (min-width: 1201px) and (max-width: 1400px){
-    
 }
