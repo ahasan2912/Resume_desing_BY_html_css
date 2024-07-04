@@ -5,12 +5,15 @@
     color: black;
 }
 .contact-info{
-    padding: 50px 20%;
+    padding: 50px 15%;
     display: flex;
     justify-content: space-between;
 }
+.contact-details{
+    margin: 0 30px;
+}
 .contact-headline h1{
-    color: #3367d6;
+    color: #0096FF;
     font-family: 'Comic Sans MS', Arial;
     font-size: 60px;
 }
@@ -19,9 +22,14 @@
     font-family: Lato, sans-serif;
     font-weight: 600;
     line-height: 32px;
+    color: #463e3e;
+}
+.contact-platform li span{
+   color: #000;
 }
 .contact-online{
     display: flex;
+   justify-content: start;
 }
 .contact-online li{
     font-size: 35px;

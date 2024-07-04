@@ -69,6 +69,17 @@
      .part{
         grid-template-columns: repeat(1, 250px);
     }
+    .contact-info{
+        flex-wrap: wrap;
+        padding: 50px 15%;
+        text-align: left;
+    }
+    .contact-details{
+        margin: 0 0px;
+    }
+    .current-address{
+        margin-bottom: 25px;
+    }
 }
 
 /*Large Mobile Screen Devices*/
@@ -137,6 +148,17 @@
      }
      .part{
         grid-template-columns: repeat(1, 250px);
+    }
+    .contact-info{
+        flex-wrap: wrap;
+        padding: 50px 15%;
+        text-align: left;
+    }
+    .contact-details{
+        margin: 0 0px;
+    }
+    .current-address{
+        margin-bottom: 25px;
     }
 }
 /*Tablet Screen Devices*/
